@@ -1,0 +1,21 @@
+{
+  "target_url": "https://passport.neea.edu.cn/CETLogin?ReturnUrl=https://cet-bm.neea.edu.cn/Home/VerifyPassport/?LoginType=0&Safe=1",
+  "username_selector": "#txtName",
+  "password_selector": "#txtPassword",
+  "captcha_img_selector": "#imgCheckImage",
+  "captcha_input_selector": "#code",
+  "submit_selector": "#btnLogin",
+  "captcha_service": "local",
+  "api_key": "",
+  "capmonster_api_key": "",
+  "local_model_path": "C:\\Users\\Administrator\\Downloads\\验证码测试工具\\models\\captcha4.onnx",
+  "local_charsets_path": "C:\\Users\\Administrator\\Downloads\\验证码测试工具\\models\\charsets.json",
+  "local_min_confidence": 0.9136363636363637,
+  "headless": false,
+  "concurrent_browsers": 3,
+  "retry_on_fail": true,
+  "max_retries": 3,
+  "proxy": "",
+  "province_selector": "#selectProvince",
+  "province_value": ""
+}

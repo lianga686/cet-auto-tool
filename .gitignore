@@ -1,0 +1,11 @@
+# 主程序体积 103MB，超过 GitHub 仓库单文件限制；
+# 请在 Releases 页面下载，不纳入 git 仓库
+*.exe
+
+# 账号文件含个人敏感信息，禁止上传
+accounts.json
+
+# 运行时数据
+browser_profiles/
+webdriver_cache/
+*.jsonl
